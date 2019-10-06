@@ -53,3 +53,64 @@ int Search(struct Node *root, int data) {
     }
     return status;
 }
+
+void Traversal(node *root) {        ///USING NEW DEFINITIONS
+    if (root->LeftNode != NULL) {
+        Traversal(root->LeftNode);
+    }
+    printf("%d ", root->key);
+    if (root->RightNode != NULL) {
+        Traversal(root->RightNode);
+    }
+}
+
+void ReleaseAllNodes(node *root) {      ///USING NEW DEFINITIONS
+    if (root->RightNode != NULL) ReleaseAllNodes(root->RightNode);
+    if (root->LeftNode != NULL) ReleaseAllNodes(root->LeftNode);
+    free(root);
+}
+
+int Prompt(node *BinaryTree, int *initialized) {      ///USING NEW DEFINITIONS
+    printf("Enter (i)nstert, (s)earch, inorder (t)raversal, or (q)uit");
+    char input;
+    int data;
+    scanf("%c", input);
+    switch (input) {
+        case 'i':
+            printf("\nEnter a number to insert:");
+            scanf("%d", data);
+            if (*initialized == 0) {
+                Initialize(BinaryTree, data);
+                *initialized = 1;
+            }
+            Insert(BinaryTree, data);
+            printf("\n");
+            break;
+
+        case 's':
+            printf("\nEnter a number to search:");
+            scanf("%d", data);
+            if (*initialized == 0) printf("\n%d is not in the tree\n", data);
+            else {
+                int status = Search(BinaryTree, data);
+                if (status == 1) printf("\n%d is in the tree\n", data);
+                else printf("\n%d is not in the tree\n", data);
+            }
+            break;
+
+        case 't':
+            printf("\n");
+            Traversal(BinaryTree);
+            break;
+
+        case 'q':
+            ReleaseAllNodes(BinaryTree);
+            return 1;
+            break;
+
+        default:
+            return 0;
+
+    } //end switch
+    return 0;
+}
