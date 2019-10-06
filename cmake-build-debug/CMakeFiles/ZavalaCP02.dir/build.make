@@ -57,30 +57,60 @@ include CMakeFiles/ZavalaCP02.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ZavalaCP02.dir/flags.make
 
-CMakeFiles/ZavalaCP02.dir/main.c.o: CMakeFiles/ZavalaCP02.dir/flags.make
-CMakeFiles/ZavalaCP02.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ZavalaCP02.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ZavalaCP02.dir/main.c.o   -c /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/main.c
+CMakeFiles/ZavalaCP02.dir/proj2.c.o: CMakeFiles/ZavalaCP02.dir/flags.make
+CMakeFiles/ZavalaCP02.dir/proj2.c.o: ../proj2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ZavalaCP02.dir/proj2.c.o"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ZavalaCP02.dir/proj2.c.o   -c /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/proj2.c
 
-CMakeFiles/ZavalaCP02.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ZavalaCP02.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/main.c > CMakeFiles/ZavalaCP02.dir/main.c.i
+CMakeFiles/ZavalaCP02.dir/proj2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ZavalaCP02.dir/proj2.c.i"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/proj2.c > CMakeFiles/ZavalaCP02.dir/proj2.c.i
 
-CMakeFiles/ZavalaCP02.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ZavalaCP02.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/main.c -o CMakeFiles/ZavalaCP02.dir/main.c.s
+CMakeFiles/ZavalaCP02.dir/proj2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ZavalaCP02.dir/proj2.c.s"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/proj2.c -o CMakeFiles/ZavalaCP02.dir/proj2.c.s
+
+CMakeFiles/ZavalaCP02.dir/bst.c.o: CMakeFiles/ZavalaCP02.dir/flags.make
+CMakeFiles/ZavalaCP02.dir/bst.c.o: ../bst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ZavalaCP02.dir/bst.c.o"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ZavalaCP02.dir/bst.c.o   -c /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/bst.c
+
+CMakeFiles/ZavalaCP02.dir/bst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ZavalaCP02.dir/bst.c.i"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/bst.c > CMakeFiles/ZavalaCP02.dir/bst.c.i
+
+CMakeFiles/ZavalaCP02.dir/bst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ZavalaCP02.dir/bst.c.s"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/bst.c -o CMakeFiles/ZavalaCP02.dir/bst.c.s
+
+CMakeFiles/ZavalaCP02.dir/io.c.o: CMakeFiles/ZavalaCP02.dir/flags.make
+CMakeFiles/ZavalaCP02.dir/io.c.o: ../io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ZavalaCP02.dir/io.c.o"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ZavalaCP02.dir/io.c.o   -c /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/io.c
+
+CMakeFiles/ZavalaCP02.dir/io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ZavalaCP02.dir/io.c.i"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/io.c > CMakeFiles/ZavalaCP02.dir/io.c.i
+
+CMakeFiles/ZavalaCP02.dir/io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ZavalaCP02.dir/io.c.s"
+	C:/cygwin64/bin/clang-8.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/io.c -o CMakeFiles/ZavalaCP02.dir/io.c.s
 
 # Object files for target ZavalaCP02
 ZavalaCP02_OBJECTS = \
-"CMakeFiles/ZavalaCP02.dir/main.c.o"
+"CMakeFiles/ZavalaCP02.dir/proj2.c.o" \
+"CMakeFiles/ZavalaCP02.dir/bst.c.o" \
+"CMakeFiles/ZavalaCP02.dir/io.c.o"
 
 # External object files for target ZavalaCP02
 ZavalaCP02_EXTERNAL_OBJECTS =
 
-ZavalaCP02.exe: CMakeFiles/ZavalaCP02.dir/main.c.o
+ZavalaCP02.exe: CMakeFiles/ZavalaCP02.dir/proj2.c.o
+ZavalaCP02.exe: CMakeFiles/ZavalaCP02.dir/bst.c.o
+ZavalaCP02.exe: CMakeFiles/ZavalaCP02.dir/io.c.o
 ZavalaCP02.exe: CMakeFiles/ZavalaCP02.dir/build.make
 ZavalaCP02.exe: CMakeFiles/ZavalaCP02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ZavalaCP02.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ZavalaCP02.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ZavalaCP02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

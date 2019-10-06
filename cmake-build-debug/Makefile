@@ -123,32 +123,86 @@ ZavalaCP02/fast:
 	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/build
 .PHONY : ZavalaCP02/fast
 
-main.o: main.c.o
+bst.o: bst.c.o
 
-.PHONY : main.o
+.PHONY : bst.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/main.c.o
-.PHONY : main.c.o
+bst.c.o:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/bst.c.o
+.PHONY : bst.c.o
 
-main.i: main.c.i
+bst.i: bst.c.i
 
-.PHONY : main.i
+.PHONY : bst.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/main.c.i
-.PHONY : main.c.i
+bst.c.i:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/bst.c.i
+.PHONY : bst.c.i
 
-main.s: main.c.s
+bst.s: bst.c.s
 
-.PHONY : main.s
+.PHONY : bst.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/main.c.s
-.PHONY : main.c.s
+bst.c.s:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/bst.c.s
+.PHONY : bst.c.s
+
+io.o: io.c.o
+
+.PHONY : io.o
+
+# target to build an object file
+io.c.o:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/io.c.o
+.PHONY : io.c.o
+
+io.i: io.c.i
+
+.PHONY : io.i
+
+# target to preprocess a source file
+io.c.i:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/io.c.i
+.PHONY : io.c.i
+
+io.s: io.c.s
+
+.PHONY : io.s
+
+# target to generate assembly for a file
+io.c.s:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/io.c.s
+.PHONY : io.c.s
+
+proj2.o: proj2.c.o
+
+.PHONY : proj2.o
+
+# target to build an object file
+proj2.c.o:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/proj2.c.o
+.PHONY : proj2.c.o
+
+proj2.i: proj2.c.i
+
+.PHONY : proj2.i
+
+# target to preprocess a source file
+proj2.c.i:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/proj2.c.i
+.PHONY : proj2.c.i
+
+proj2.s: proj2.c.s
+
+.PHONY : proj2.s
+
+# target to generate assembly for a file
+proj2.c.s:
+	$(MAKE) -f CMakeFiles/ZavalaCP02.dir/build.make CMakeFiles/ZavalaCP02.dir/proj2.c.s
+.PHONY : proj2.c.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ZavalaCP02"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... bst.o"
+	@echo "... bst.i"
+	@echo "... bst.s"
+	@echo "... io.o"
+	@echo "... io.i"
+	@echo "... io.s"
+	@echo "... proj2.o"
+	@echo "... proj2.i"
+	@echo "... proj2.s"
 .PHONY : help
 
 

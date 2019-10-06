@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="ZavalaCP02"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
@@ -32,11 +32,11 @@
 				<Option working_dir="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/lib/clang/8.0.1/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/include/w32api"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZavalaCP02"/>
@@ -50,11 +50,11 @@
 				<Option working_dir="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/lib/clang/8.0.1/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/include/w32api"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZavalaCP02/fast"/>
@@ -74,7 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/main.c">
+		<Unit filename="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/bst.c">
+			<Option target="ZavalaCP02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/bst.h">
+			<Option target="ZavalaCP02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/io.c">
+			<Option target="ZavalaCP02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/io.h">
+			<Option target="ZavalaCP02"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/proj2.c">
 			<Option target="ZavalaCP02"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02/CMakeLists.txt">

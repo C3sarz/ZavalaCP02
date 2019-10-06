@@ -1,7 +1,7 @@
-C:\Users\cesar\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02
--- The C compiler identification is GNU 7.4.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
+C:\Users\cesar\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/cygwin64/bin/clang-8.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/cesar/CLionProjects/ZavalaCP02
+-- The C compiler identification is Clang 8.0.1
+-- Check for working C compiler: C:/cygwin64/bin/clang-8.exe
+-- Check for working C compiler: C:/cygwin64/bin/clang-8.exe -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
