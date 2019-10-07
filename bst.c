@@ -89,27 +89,20 @@ void ReleaseAllNodes(Tree *root) {
 }
 
 int Prompt(Tree **BinaryTree) {
-    printf("Enter (i)nstert, (s)earch, inorder (t)raversal, or (q)uit: ");
-    char input[20];
     int data;
-    scanf("%s", input);
-    switch (input[0]) {
+    switch (DisplayMainPrompt()) {
         case 'i':
-            printf("\nEnter a number to insert:");
-            scanf("%d", &data);
-            getchar();
+            data = SecondaryPrompts(1, 0);
             Insert(BinaryTree, data);
             printf("\n");
             break;
 
         case 's':
-            printf("\nEnter a number to search:");
-            scanf("%d", &data);
-            getchar();
-            printf("%d", data);
+            data = SecondaryPrompts(2, 0);
+
             int status = Search(*BinaryTree, data);
-            if (status == 1) printf("\n%d is in the tree\n", data);
-            else printf("\n%d is not in the tree\n", data);
+            if (status == 1) SecondaryPrompts(3, data);
+            else SecondaryPrompts(4, data);
             break;
 
         case 't':

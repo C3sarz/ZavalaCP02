@@ -5,6 +5,7 @@ CMakeFiles/ZavalaCP02.dir/bst.c.o: ../bst.c
 CMakeFiles/ZavalaCP02.dir/bst.c.o: ../bst.h
 CMakeFiles/ZavalaCP02.dir/bst.c.o: ../io.h
 
+CMakeFiles/ZavalaCP02.dir/io.c.o: ../bst.h
 CMakeFiles/ZavalaCP02.dir/io.c.o: ../io.c
 CMakeFiles/ZavalaCP02.dir/io.c.o: ../io.h
 

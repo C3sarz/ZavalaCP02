@@ -19,8 +19,6 @@ int main() {
     Tree *BinaryTree;
     BinaryTree = malloc(sizeof(struct node));
     BinaryTree = NULL;
-//    int *initialized;
-//    *initialized = 0;
 
     ////START MAIN LOOP
     int escape = 0;
@@ -28,7 +26,5 @@ int main() {
         escape = Prompt(&BinaryTree);
     }
     ////END MAIN LOOP
-    printf("Exiting!");
-
     return 0;
 }

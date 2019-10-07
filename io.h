@@ -1,13 +1,18 @@
-////
-//// Created by Cesar Zavala on 10/5/2019.
-////
-////#include "bst.h"
-//#ifndef ZAVALACP02_IO_H
-//#define ZAVALACP02_IO_H
-//
-//void Initialize(struct node * root,int data);
-//void Insert(struct node* root, int data);
-//int Search(struct node *root, int data);
-//
-//
-//#endif //ZAVALACP02_IO_H
+/**********************************************
+* Name: Cesar Zavala *
+* Date: 10/06/2019 *
+* Assignment: Project 2 – Binary Trees *
+***********************************************
+* IO header file *
+***********************************************/
+#include "bst.h"
+
+#ifndef ZAVALACP02_IO_H
+#define ZAVALACP02_IO_H
+
+char DisplayMainPrompt();
+
+int SecondaryPrompts(int type, int data);
+
+
+#endif //ZAVALACP02_IO_H

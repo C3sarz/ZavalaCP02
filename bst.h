@@ -1,9 +1,16 @@
-
+/**********************************************
+* Name: Cesar Zavala *
+* Date: 10/06/2019 *
+* Assignment: Project 2 – Binary Trees *
+***********************************************
+* BST header file. *
+***********************************************/
 // Created by Cesar Zavala on 10/5/2019.
 
 
 #ifndef ZAVALACP02_BST_H
 #define ZAVALACP02_BST_H
+
 
 typedef struct node {
     int key;
