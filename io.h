@@ -1,13 +1,13 @@
+////
+//// Created by Cesar Zavala on 10/5/2019.
+////
+////#include "bst.h"
+//#ifndef ZAVALACP02_IO_H
+//#define ZAVALACP02_IO_H
 //
-// Created by Cesar Zavala on 10/5/2019.
+//void Initialize(struct node * root,int data);
+//void Insert(struct node* root, int data);
+//int Search(struct node *root, int data);
 //
-
-#ifdef ZAVALACP02_IO_H
-#define ZAVALACP02_IO_H
-
-void Initialize(struct Node * ,int);
-void Insert(struct Node*, int);
-int Search(Node *root, int data);
-
-
-#endif //ZAVALACP02_IO_H
+//
+//#endif //ZAVALACP02_IO_H

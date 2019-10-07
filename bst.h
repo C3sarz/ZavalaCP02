@@ -1,14 +1,26 @@
-//
+
 // Created by Cesar Zavala on 10/5/2019.
-//
 
-//#ifdef _bst_h
-//#define _bst_h
 
-//typedef struct{
-//    int key;
-//    struct Node * LeftNode;
-//    struct Node * RightNode;
-//}Node;
+#ifndef ZAVALACP02_BST_H
+#define ZAVALACP02_BST_H
 
-//#endif /* _bst_h */
+typedef struct node {
+    int key;
+    struct node *LeftNode;
+    struct node *RightNode;
+} Tree;
+
+void Initialize(struct node *root, int data);
+
+void Insert(Tree **root, int data);
+
+int Search(Tree *root, int data);
+
+void Traversal(Tree *root);
+
+void ReleaseAllNodes(Tree *root);
+
+int Prompt(Tree **BinaryTree);
+
+#endif //ZAVALACP02_IO_H
